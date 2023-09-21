@@ -1,0 +1,59 @@
+.test-blue {
+    background-color: cornflowerblue;
+}
+
+.test-red {
+    background-color: lightcoral;
+}
+
+.test-green {
+    background-color: darkseagreen;
+}
+
+.test-purple {
+    background-color:rgb(180, 159, 223);
+}
+
+.float-center {
+    display: flex;
+    justify-content: center;
+}
+
+#main-header {
+    display: flex;
+    width: 100%;
+}
+
+#logo {
+    width: 20%
+}
+
+.image {
+    background-color: khaki; /* for testing purposes */
+    width: 15%;
+    margin-left: 1%;
+    margin-right: 1%;
+    
+}
+
+#nav {
+    width: 80%;
+}
+
+.header {
+    font-size: xx-large;
+    width: 100%;
+    text-align: center;
+}
+
+#hero-logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#hero-text {
+    width: 100%;
+    text-align: center;
+}
+
