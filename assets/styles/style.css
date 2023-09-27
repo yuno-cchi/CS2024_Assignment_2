@@ -1,3 +1,11 @@
+.main div {
+    margin: 5%;
+}
+
+a {
+    color: inherit; /*this will make anchors look like paragraphs, but with an underline*/
+}
+
 .test-blue {
     background-color: cornflowerblue;
 }
@@ -30,10 +38,12 @@
 
 .image {
     background-color: khaki; /* for testing purposes */
-    width: 15%;
+    width: 200px;
+    height: 15vh;
     margin-left: 1%;
     margin-right: 1%;
-    
+    margin-top: 1%;
+    margin-bottom: 2%;
 }
 
 #nav {
@@ -44,6 +54,12 @@
     font-size: xx-large;
     width: 100%;
     text-align: center;
+    margin-top: 2%;
+    padding-top: 1px;
+}
+
+#hero {
+    padding-bottom: 1%;
 }
 
 #hero-logo {
@@ -55,5 +71,30 @@
 #hero-text {
     width: 100%;
     text-align: center;
+}
+
+#loc-and-contact {
+    display: inline-block;
+    width: 100%;
+}
+
+.float-left {
+    float: left;
+    width: 50%;
+}
+
+.float-right {
+    float: right;
+    width: 50%;
+}
+
+.text-header {
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+.text-content {
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
