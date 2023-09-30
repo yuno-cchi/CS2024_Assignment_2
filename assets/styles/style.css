@@ -1,4 +1,4 @@
-.main-body {
+.reservation-main-body {
   background-image: url("../../design_docs/images/ReservationPage.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -8,6 +8,7 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  align-content: center;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -28,24 +29,24 @@
   display: flex;
   flex-direction: column;
 }
-.name {
+
+.contact-info {
   display: flex;
   text-align: center;
   font-family: Oswald, Arial;
   margin-top: 10px;
   font-size: 20px;
+  flex-direction: row;
+  align-items: center;
+  color: black;
+}
+.name {
+  display: flex;
 }
 .name-icon {
   height: 20px;
   width: 23px;
-  margin-top: 16px;
-  margin-left: 17px;
-  margin-right: 6px;
-}
-
-.name-p {
-  margin-top: 10px;
-  margin-bottom: 0px;
+  margin: 5px 6px 0px 17px;
 }
 
 .email {
@@ -63,17 +64,13 @@
   margin-right: 6px;
 }
 
-.email-p {
-  margin-top: 10px;
-  margin-bottom: 0px;
-}
-
 .phone {
   display: flex;
   text-align: center;
   font-family: Oswald, Arial;
   font-size: 20px;
 }
+
 .phone-icon {
   height: 20px;
   width: 23px;
@@ -82,10 +79,6 @@
   margin-right: 6px;
 }
 
-.phone-p {
-  margin-top: 10px;
-  margin-bottom: 0px;
-}
 .no-of-pax {
   display: flex;
   text-align: left;
@@ -100,56 +93,71 @@
   margin-right: 6px;
 }
 
-.no-of-pax-p {
-  margin-top:10px;
-  margin-bottom: 5px;
-}
-.line {
-  align-items: center;
-  margin: 6px 0px 0px 8px;
-}
-.line1 {
-  width: 160px;
-  border-radius:5px;
-  padding: 5px;
-  border: none;
-  border-bottom: 1px solid black;
-  background-color: #E6CCB2;
-  margin-left:5px;
-}
-
-.line2{
-  width: 160px;
-  border-radius:5px;
-  padding: 5px;
-  border: none;
-  border-bottom: 1px solid black;
-  background-color: #E6CCB2;
-  margin-left: 8px;
-}
-
-.line3 {
-  width: 160px;
-  border-radius:5px;
-  padding: 5px;
-  border: none;
-  border-bottom: 1px solid black;
-  background-color: #E6CCB2;
-}
-
-.line4{
-  width: 127px;
-  border-radius:5px;
-  padding: 5px;
-  border: none;
-  border-bottom: 1px solid black;
-  background-color: #E6CCB2;
-}
-.icons {
+.input-name {
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  justify-content: end;
+  width: 180px;
 }
+
+.input-text-name {
+  font-family: Oswald, Arial;
+  border-top: none;
+  border-right: none;
+  border-left: none; 
+  background: #E6CCB2;
+  width: 170px;
+}
+
+.input-email {
+  display: flex;
+  justify-content: end;
+  width: 185px;
+}
+
+.input-text-email {
+  font-family: Oswald, Arial;
+  border-top: none;
+  border-right: none;
+  border-left: none; 
+  background: #E6CCB2;
+  width: 170px;
+}
+
+.input-phone {
+  display: flex;
+  justify-content: end;
+  width: 180px;
+}
+
+.input-text-phone {
+  font-family: Oswald, Arial;
+  border-top: none;
+  border-right: none;
+  border-left: none; 
+  background: #E6CCB2;
+  width: 170px;
+}
+
+.input-pax {
+  display: flex;
+  justify-content: end;
+  width: 150px;
+}
+
+.input-text-pax {
+  font-family: Oswald, Arial;
+  border-top: none;
+  border-right: none;
+  border-left: none; 
+  background: #E6CCB2;
+  width: 140px;
+}
+
+
+.name-p {
+  width: 50px;
+}
+
 .material-symbols-rounded {
   opacity: 0.5;
   margin-right: 20px;
