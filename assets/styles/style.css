@@ -1,3 +1,6 @@
+.body, html {
+  overflow-x: hidden;
+}
 .reservation-main-body {
   background-image: url("../../design_docs/images/ReservationPage.png");
   background-size: cover;
@@ -8,17 +11,17 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  align-content: center;
-  margin: 0;
+  margin-top: -100px;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 .reservation-title {
   color: white;
   font-size: 130px;
-  margin-bottom: 50px;
-
+  margin-top: 180px;
+  font-family: 'Savoye LET', Arial;
 }
 
 .reservation-box {
@@ -28,6 +31,7 @@
   border-radius: 10px;
   display: flex;
   flex-direction: column;
+  margin-top: -20px;
 }
 
 .contact-info {
