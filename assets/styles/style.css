@@ -11,7 +11,7 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  margin-top: -100px;
+  margin-top: 0px;
   padding: 0;
   box-sizing: border-box;
   overflow-x: hidden;
@@ -20,7 +20,7 @@
 .reservation-title {
   color: white;
   font-size: 130px;
-  margin-top: 180px;
+  margin-top: 0px;
   font-family: 'Savoye LET', Arial;
 }
 
@@ -309,6 +309,7 @@ a {
 #main-header {
     display: flex;
     width: 100%;
+    position: fixed;
 }
 
 #logo {
@@ -377,3 +378,77 @@ a {
     padding-right: 5%;
 }
 
+#about-us-main {
+  background-image: url("../../design_docs/images/about-us-page.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1307px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0px;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  color: white;
+  font-family: Oswald, Arial;
+}
+
+.about-us-title {
+  color: white;
+  font-size: 130px;
+  margin-bottom: 5px;
+  font-family: 'Savoye LET', Arial;
+  opacity: 0.7;
+}
+
+.about-us-box {
+  width: 870px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+.about-us-welcome {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 75px;
+}
+
+.about-us-headers {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.about-us-content {
+  font-size: 20px;
+  margin-bottom: 37px;
+
+}
+
+p {
+  text-align: justify;
+}
+
+.about-us-reserve-now-button {
+  display: flex;
+  justify-content: center;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  font-family: Oswald;
+  background-color: #B71A25;
+  border-radius: 20px;
+  border: none;
+  width: 180px;
+  height: 60px;
+  align-items: center;
+  cursor: pointer;
+  text-decoration: none;
+}
