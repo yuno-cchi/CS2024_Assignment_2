@@ -2,12 +2,55 @@ html {
   overflow-x: hidden;
   margin-left:-8px;
   margin-right: -8px;
-  min-height: 1080px;
 }
 
 .spacer {
   width:100%;
 }
+
+#footer {
+  background-color: rgb(221,184,146);
+  display:flex;
+  justify-content: center;
+  margin-bottom: -8px;
+  margin-top: -4px;
+  height:200px;
+  min-width: 1200px;
+}
+
+#left-foot {
+  padding-right: 10%;
+}
+
+#right-foot {
+  padding-left: 10%;
+}
+
+.footer-text {
+  list-style: none;
+  text-align: center;
+  padding-left: 0px;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+}
+
+.footer-decoration-left {
+  height:200px;
+  position:absolute;
+  left:-150px;
+}
+
+.footer-decoration-right {
+  height:200px;
+  position:absolute;
+  right:-150px;
+}
+.footer-header {
+  font-weight: bold;
+  font-size: 1.4em;
+  text-align: center;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+}
+
 
 .zen-logo {
   height:200%;
@@ -41,6 +84,7 @@ html {
   -moz-user-select: none; 
   -ms-user-select: none; 
   user-select: none; 
+  pointer-events: none;
 }
 
 .reservation-main-body {
@@ -356,22 +400,37 @@ a {
     background-color: rgb(221,184,146);
     position: fixed;
     margin-top: -8px;
-    height: 15%;
+    height: 120px;
+    min-width: 1300px;
+    z-index: 1;
+  }
+  
+.header-nav {
+    margin-top: 45px;
+    display: flex;
+    min-width: 1000px;
 }
 
-.header-nav {
-  margin-top: 45px;
+.header-nav div {
+  padding-left: 7.5%;
 }
 
 .header-nav a {
-  padding-left: 7.5%;
-  text-decoration: none;
   font-family: Poppins, Arial, Helvetica, sans-serif;
+  text-decoration: none;
 }
 
 .socmed-icon {
-  height:25%;
+  height: 25px;
   position: absolute;
+}
+
+.facebook {
+  padding-left: 3%;
+}
+
+.instagram {
+  padding-left: 6%;
 }
 
 #logo {
@@ -404,6 +463,8 @@ a {
 
 #hero {
     padding-bottom: 1%;
+    padding-top: 10%;
+    min-height: 400px;
 }
 
 #hero-logo {
@@ -436,7 +497,6 @@ a {
     font-weight: bold;
     font-size: 1.4em;
 }
-
 .text-content {
     padding-left: 5%;
     padding-right: 5%;
