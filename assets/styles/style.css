@@ -8,50 +8,6 @@ html {
   width:100%;
 }
 
-#footer {
-  background-color: rgb(221,184,146);
-  display:flex;
-  justify-content: center;
-  margin-bottom: -8px;
-  margin-top: -4px;
-  height:200px;
-  min-width: 1200px;
-}
-
-#left-foot {
-  padding-right: 10%;
-}
-
-#right-foot {
-  padding-left: 10%;
-}
-
-.footer-text {
-  list-style: none;
-  text-align: center;
-  padding-left: 0px;
-  font-family: Poppins, Arial, Helvetica, sans-serif;
-}
-
-.footer-decoration-left {
-  height:200px;
-  position:absolute;
-  left:-150px;
-}
-
-.footer-decoration-right {
-  height:200px;
-  position:absolute;
-  right:-150px;
-}
-.footer-header {
-  font-weight: bold;
-  font-size: 1.4em;
-  text-align: center;
-  font-family: Poppins, Arial, Helvetica, sans-serif;
-}
-
-
 .zen-logo {
   height:200%;
   pointer-events: none;
@@ -506,7 +462,6 @@ a {
   background-image: url("../../design_docs/images/about-us-page.png");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 1307px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -526,6 +481,7 @@ a {
   margin-bottom: 5px;
   font-family: 'Savoye LET', Arial;
   opacity: 0.7;
+  padding-top: 150px;
 }
 
 .about-us-box {
@@ -576,3 +532,48 @@ p {
   cursor: pointer;
   text-decoration: none;
 }
+
+
+#footer {
+  background-color: rgb(221,184,146);
+  display:flex;
+  justify-content: center;
+  margin-bottom: -8px;
+  margin-top: -4px;
+  height:200px;
+  min-width: 1200px;
+}
+
+#left-foot {
+  padding-right: 150px;
+}
+
+#right-foot {
+  padding-left: 150px;
+}
+
+.footer-text {
+  list-style: none;
+  text-align: center;
+  padding-left: 0px;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+}
+
+.footer-decoration-left {
+  height:200px;
+  position:absolute;
+  left:-150px;
+}
+
+.footer-decoration-right {
+  height:200px;
+  position:absolute;
+  right:-150px;
+}
+.footer-header {
+  font-weight: bold;
+  font-size: 1.4em;
+  text-align: center;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+}
+
