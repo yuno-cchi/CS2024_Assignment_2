@@ -4,6 +4,12 @@ html {
   margin-right: -8px;
 }
 
+hr {
+  width: 50%;
+  margin-bottom: 25px;
+  color:#fff
+}
+
 .spacer {
   width:100%;
 }
@@ -40,7 +46,6 @@ html {
   -moz-user-select: none; 
   -ms-user-select: none; 
   user-select: none; 
-  pointer-events: none;
 }
 
 .reservation-main-body {
@@ -59,12 +64,9 @@ html {
   overflow-x: hidden;
 }
 
-.reservation-title {
-  color: white;
-  font-size: 130px;
+#reservation-title {
   margin: 0px 0px 15px 0px;
-  font-family: 'Savoye LET', Arial;
-  opacity: 0.7;
+  padding-top: 80px;
 }
 
 .reservation-box {
@@ -321,12 +323,8 @@ html {
   cursor: pointer;
 }
 
-.main div {
-    margin: 5%;
-}
-
 a {
-    color: inherit; /*this will make anchors look like paragraphs, but with an underline*/
+  color: inherit; /*this will make anchors look like paragraphs, but with an underline*/
 }
 
 .test-blue {
@@ -334,32 +332,32 @@ a {
 }
 
 .test-red {
-    background-color: lightcoral;
+  background-color: lightcoral;
 }
 
 .test-green {
-    background-color: darkseagreen;
+  background-color: darkseagreen;
 }
 
 .test-purple {
-    background-color:rgb(180, 159, 223);
+  background-color:rgb(180, 159, 223);
 }
 
 .float-center {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 #main-header {
-    display: flex;
-    width: 100%;
-    background-color: rgb(221,184,146);
-    position: fixed;
-    margin-top: -8px;
-    height: 120px;
-    min-width: 1300px;
-    z-index: 1;
-  }
+  display: flex;
+  width: 100%;
+  background-color: rgb(221,184,146);
+  position: fixed;
+  margin-top: -8px;
+  height: 120px;
+  min-width: 1300px;
+  z-index: 2;
+}
   
 .header-nav {
     margin-top: 45px;
@@ -395,13 +393,38 @@ a {
 }
 
 .image {
-    background-color: khaki; /* for testing purposes */
-    width: 200px;
-    height: 15vh;
-    margin-left: 0%;
-    margin-right: 1%;
+    width: 300px;
+    height: 200px;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
     margin-top: 1%;
     margin-bottom: 2%;
+
+    position: relative;
+    z-index: 1;
+}
+
+.image img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-position: center;
+}
+
+.image img:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s ease;
+}
+
+.image img:not(:hover) {
+  transform: scale(1);
+  transition: transform 0.3s ease;
+}
+
+.image p.caption {
+  text-align: center;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
 }
 
 #nav {
@@ -409,11 +432,18 @@ a {
 }
 
 .header {
-    font-size: xx-large;
     width: 100%;
     text-align: center;
-    padding-top: 1px;
-    padding-left:5%;
+    display:flex;
+    justify-content: center;
+    font-family: 'Savoye LET',Arial, Helvetica, sans-serif;
+    line-height: 0px;
+    font-size: 7em;
+}
+
+.header p {
+  margin-top: 100px;
+  margin-bottom: 50px;
 }
 
 #hero {
@@ -448,6 +478,12 @@ a {
 #loc-and-contact {
     display: inline-block;
     width: 100%;
+}
+
+.background-1 {
+    padding-bottom: 50px;
+    background: #fff url(./../img/index/background-1.jpeg) center/cover no-repeat;
+    color:#fff;
 }
 
 .float-left {
@@ -486,13 +522,17 @@ a {
   font-family: Oswald, Arial;
 }
 
-.about-us-title {
+#about-us-title {
+  margin-bottom: 5px;
+  padding-top: 150px;
+}
+
+.section-title {
   color: white;
   font-size: 130px;
   margin-bottom: 5px;
-  font-family: 'Savoye LET', Arial;
+  font-family: 'Savoye LET', Arial, Helvetica, sans-serif;
   opacity: 0.7;
-  padding-top: 150px;
 }
 
 .about-us-box {
