@@ -450,7 +450,7 @@ a {
     padding-bottom: 1%;
     padding-top: 10%;
     min-height: 400px;
-    background: #fff url(./../img/index/hero.jpeg) center/cover no-repeat;
+    background: url(./../img/index/hero.jpeg) center/cover no-repeat;
     color:#fff;
 }
 
@@ -500,6 +500,13 @@ a {
 .background-1 {
     padding-bottom: 50px;
     background: #fff url(./../img/index/background-1.jpg) center/cover no-repeat;
+    color:#fff;
+}
+
+.background-1 {
+    padding-bottom: 50px;
+    background-image: url(./../img/index/background-1.jpg);
+    background-size: cover no-repeat;
     color:#fff;
 }
 
