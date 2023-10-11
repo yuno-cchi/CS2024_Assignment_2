@@ -475,6 +475,23 @@ a {
   font-family: Poppins, Arial, Helvetica, sans-serif;
 }
 
+#hero-text i {
+  text-align: center;
+  font-size: 1.2em;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+}
+
+#hero-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#hero-buttons a {
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  margin: 25px 25px 25px 25px;
+}
+
 #loc-and-contact {
     display: inline-block;
     width: 100%;
@@ -482,7 +499,13 @@ a {
 
 .background-1 {
     padding-bottom: 50px;
-    background: #fff url(./../img/index/background-1.jpeg) center/cover no-repeat;
+    background: #fff url(./../img/index/background-1.jpg) center/cover no-repeat;
+    color:#fff;
+}
+
+.background-2 {
+    padding-bottom: 50px;
+    background: #fff url(./../img/index/background-2.jpeg) center/cover no-repeat;
     color:#fff;
 }
 
@@ -499,10 +522,16 @@ a {
 .text-header {
     font-weight: bold;
     font-size: 1.4em;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
 }
 .text-content {
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 150px;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+}
+
+#find-us iframe {
+  padding-top:25px;
+  padding-bottom: 50px;
 }
 
 #about-us-main {
