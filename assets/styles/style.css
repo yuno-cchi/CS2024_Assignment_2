@@ -313,7 +313,7 @@ hr {
   color: #FFFFFF;
   text-align: center;
   font-size: 13px;
-  font-family: Oswald;
+  font-family: Poppins;
   background-color: #B71A25;
   border-radius: 10px;
   border: none;
@@ -548,7 +548,7 @@ a {
   box-sizing: border-box;
   overflow-x: hidden;
   color: white;
-  font-family: Oswald, Arial;
+  font-family: Poppins, Arial;
 }
 
 #about-us-title {
@@ -579,6 +579,7 @@ a {
   align-items: center;
   flex-direction: column;
   margin-bottom: 75px;
+  text-align: center;
 }
 
 .about-us-headers {
@@ -602,7 +603,7 @@ p {
   color: #FFFFFF;
   text-align: center;
   font-size: 20px;
-  font-family: Oswald;
+  font-family: Poppins;
   background-color: #B71A25;
   border-radius: 20px;
   border: none;
