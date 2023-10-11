@@ -49,7 +49,7 @@ hr {
 }
 
 .reservation-main-body {
-  background-image: url("../../design_docs/images/ReservationPage.png");
+  background-image: url("./../img/contact-us/ReservationPage.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 750px;
@@ -542,7 +542,7 @@ a {
 }
 
 #about-us-main {
-  background-image: url("../../design_docs/images/about-us-page.png");
+  background-image: url("./../img/about-us/about-us-page.png");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
