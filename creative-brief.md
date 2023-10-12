@@ -1,9 +1,5 @@
 # Creative Brief Assignment 2
 
-### Project Name
-
-Multi-page Japanese Fnb Restaurant
-
 ### Company Background
 
 At Zen, we are passionate about delivering an authentic Japanese dining experience that goes beyond a meal; it's a journey through the heart of Japan. Established with love and dedication, Zen brings together a team of skilled chefs and a commitment to offering the true essence of Japanese cuisine.
